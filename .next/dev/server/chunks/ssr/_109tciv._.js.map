@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Progg/Chat-Slack/my-slack-clone/app/layout.tsx"],"sourcesContent":["import './globals.css';\n\nexport const metadata = {\n  title: 'Мой чат',\n  description: 'учебный проект',\n};\n\nexport default function RootLayout({\n  children}: {\n    children: React.ReactNode;\n  }) {\n    return (\n      <html lang=\"ru\">\n      <body className=\"bg-[#1a1b1e] text-white min-h-screen\">\n        {children}\n      </body>\n    </html>\n    )\n  };\n  "],"names":["metadata","title","description","RootLayout","children","lang","className"],"mappings":";;;;;;;;;AAEO,MAAMA,WAAW;IACtBC,OAAO;IACPC,aAAa;AACf;AAEe,SAASC,WAAW,EACjCC,QAAQ,EAEP;IACC,qBACE,8OAAC;QAAKC,MAAK;kBACX,cAAA,8OAAC;YAAKC,WAAU;sBACbF;;;;;;;;;;;AAIP"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///C:/Progg/Chat-Slack/my-slack-clone/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
